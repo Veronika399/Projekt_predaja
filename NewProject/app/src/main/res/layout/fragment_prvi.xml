@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/pozadina11"
+    tools:context=".PrviFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/naslov"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="19dp"
+            android:text="@string/opis"
+            android:textAlignment="center"
+            android:textColor="@color/dark_blue"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/napomena"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/naslov"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/napomena"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/Edit_visina"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/napomena"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/visina"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_blue"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Edit_tezina"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/Edit_visina"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/tezina"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_blue"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/rdbtn"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/Edit_tezina"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/izracunaj"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ITM_BROJ"
+            android:layout_width="365dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/rdbtn"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/plava_poz"
+            android:hint="@string/broj_itm"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvITM"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ITM_BROJ"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="0dp"
+            android:background="@color/plava_poz"
+            android:hint="@string/indeks"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_blue"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</FrameLayout>

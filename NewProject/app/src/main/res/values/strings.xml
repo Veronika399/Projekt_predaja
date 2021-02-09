@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Show my BMI</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opis">Izračunaj svoj ITM</string>
+    <string name="visina">Unesi svoju visinu...</string>
+    <string name="tezina">Unesi svoju težinu...</string>
+    <string name="izracunaj">IZRAČUNAJ</string>
+    <string name="indeks">Tvoje područje indeksa je...</string>
+    <string name="heloo">Izračun</string>
+    <string name="broj_itm">Vrijednost indeksa je...</string>
+    <string name="napomena">Visinu unesite u cm!</string>
+    <string name="Tablica">Tablica vrijednosti ITM</string>
+
+    <string name="underweight">Pothranjenost
+    Vaša tjelesna masa je niža od preporučenih vrijednosti.
+    Potražite stručan savjet kako regulirati prehranu i dobiti nekoliko kilograma.
+    Za održavanje trenutne tjelesne mase uz postojeću razinu tjelesne aktivnosti potrebno je unijeti 1628 kcal.
+    </string>
+
+    <string name="normal">Odlično! Vaša tjelesna masa je optimalna.
+    Nastavite ju i dalje održavati takvom odabirom uravnoteženih
+    i raznolikih obroka i primjerenom tjelesnom aktivnosti.
+    Za održavanje trenutne tjelesne mase uz postojeću razinu tjelesne aktivnosti
+    potrebno je unijeti 1669 kcal.
+    </string>
+
+    <string name="overweight">Imate prekomjernu tjelesnu masu.
+    Potrebno je regulirati prehranu i povećati tjelesnu aktivnost.
+    Napravite promjenu već danas: prošetajte,
+    grickalice zamijenite voćem, a sokove vodom ili nezaslađenim čajem.
+    Savjetujemo postupan i za zdravlje siguran gubitak tjelesne mase od pola kilograma do kilogram tjedno.
+    Preporučujemo da smanjite energijski unos iz hrane i pića za oko 300 kcal do 600 kcal i povećate razinu tjelesne
+    aktivnosti tako da svakog dana potrošite dodatnih 200 do 400 kcal.
+    </string>
+
+    <string name="obese">
+    Vaš indeks tjelesne mase pokazuje pretilost i vrlo visok rizik
+    od raznih bolesti poput bolesti srca i krvnih žila te šećerne bolesti tipa II
+    i nekih oblika karcinoma. Potražite savjet stručnjaka, regulirajte prehranu i
+    krenite vježbati prema svojim mogućnostima. Preporučujemo da
+    smanjite energijski unos iz hrane i pića za oko 300 kcal do 600 kcal i
+    povećate razinu tjelesne aktivnosti tako da svakog dana potrošite dodatnih
+    200 do 400 kcal.
+    </string>
+
+    <string name="extremely_obese">
+    Vaš indeks tjelesne mase pokazuje ekstremnu pretilost
+    i izrazito visok rizik od raznih bolesti povezane s debljinom. Najpoznatije
+    komplikacije debljine su metabolički sindrom, šećerna bolest tipa 2, visoki
+    krvni tlak, bolesti srca i krvnih žila te neki oblici karcinoma. Što prije
+    potražite savjet stručnjaka, regulirajte prehranu i krenite vježbati prema
+    svojim mogućnostima. Preporučujemo da smanjite energijski unos iz hrane i
+    pića za oko 300 kcal do 600 kcal i povećate razinu tjelesne aktivnosti tako
+    da svakog dana potrošite dodatnih 200 do 400 kcal.
+    </string>
+
+</resources>
